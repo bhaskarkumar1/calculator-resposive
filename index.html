@@ -10,43 +10,43 @@
         <div class="center">
             <h2>Calculator</h2>
             <div class="display">
-                <input id="input" class="inp-dis" value="8+76*5" readonly>
+                <input id="input" class="inp-dis" value="" readonly>
             </div>
             <div class="keys">
                 
                 <div class="row-1">
-                    <button class="btn" id="seven">7</button>
-                    <button class="btn" id="eight">8</button>
-                    <button class="btn" id="nine">9</button>
-                    <button class="btn" id="delete">DEL</button>
+                    <button class="btn" onclick="getvalue(this)" value="7">7</button>
+                    <button class="btn" onclick="getvalue(this)" value="8">8</button>
+                    <button class="btn" onclick="getvalue(this)" value="9">9</button>
+                    <button class="btn" onclick="getvalue(this)" value="delete">DEL</button>
                 </div>
                 <div class="row-2">
-                    <button class="btn" id="four">4</button>
-                    <button class="btn" id="five">5</button>
-                    <button class="btn" id="six">6</button>
-                    <button class="btn" id="plus">+</button>
+                    <button class="btn" onclick="getvalue(this)" value="4">4</button>
+                    <button class="btn" onclick="getvalue(this)" value="5">5</button>
+                    <button class="btn" onclick="getvalue(this)" value="6">6</button>
+                    <button class="btn" onclick="getvalue(this)" value="plus">+</button>
                 </div>
                 <div class="row-3">
-                    <button class="btn" id="one">1</button>
-                    <button class="btn" id="two">2</button>
-                    <button class="btn" id="three">3</button>
-                    <button class="btn" id="minus">-</button>
+                    <button class="btn" onclick="getvalue(this)" value="1">1</button>
+                    <button class="btn" onclick="getvalue(this)" value="2">2</button>
+                    <button class="btn" onclick="getvalue(this)" value="3">3</button>
+                    <button class="btn" onclick="getvalue(this)" value="minus">-</button>
                 </div>
                 <div class="row-4">
-                    <button class="btn" id="point">.</button>
-                    <button class="btn" id="zero">0</button>
-                    <button class="btn" id="divide">/</button>
-                    <button class="btn" id="divide">X</button>
+                    <button class="btn" onclick="getvalue(this)" value="point">.</button>
+                    <button class="btn" onclick="getvalue(this)" value="0">0</button>
+                    <button class="btn" onclick="getvalue(this)" value="divide">/</button>
+                    <button class="btn" onclick="getvalue(this)" value="multiply">X</button>
                 </div>
 
                 <div class="row-5">
-                    <button class="reset">RESET</button>
-                    <button class="equal">=</button>
+                    <button class="reset"onclick="getvalue(this)" value="reset">RESET</button>
+                    <button class="equal"onclick="getvalue(this)" value="equal">=</button>
                 </div>
             
 
             </div>
         </div>
-        
+        <script src="script.js"></script>
     </body>
 </html>
