@@ -38,8 +38,9 @@ function getvalue(button){
             inp.value=""
         }
         else{
-            
+            if (inp.value!==""){
             inp.value=eval(inp.value)
+            }
         }
 
     }
